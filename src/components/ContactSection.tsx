@@ -119,13 +119,7 @@ const ContactSection = () => {
                 >
                   <span className="text-slate-300">@</span>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="icon"
-                  className="glass-effect hover:scale-110 transition-all duration-300"
-                >
-                  <span className="text-purple-400">💼</span>
-                </Button>
+                
               </div>
             </div>
           </div>
