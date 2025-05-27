@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -103,7 +102,9 @@ const ExperienceSection = () => {
                     <CardHeader>
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                         <CardTitle className="text-white text-base sm:text-lg">{exp.role}</CardTitle>
-                        <Badge className={`bg-gradient-to-r ${exp.color} text-white w-fit text-xs sm:text-sm`}>
+                        <Badge 
+                          className={`bg-gradient-to-r ${exp.color} text-white text-xs sm:text-sm px-2 py-1 h-fit self-center`}
+                        >
                           {exp.type}
                         </Badge>
                       </div>
@@ -177,8 +178,6 @@ const ExperienceSection = () => {
                 </Card>
               ))}
             </div>
-
-            
           </div>
         </div>
       </div>
