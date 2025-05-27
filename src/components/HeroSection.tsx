@@ -8,6 +8,7 @@ const HeroSection = () => {
   const { toast } = useToast();
 
   const handleDownloadResume = () => {
+    window.open('https://drive.google.com/file/d/1biUKDgauDQRDBIDx3Nnai3Byt2RlGSR8/view?usp=drivesdk', '_blank');
     toast({
       title: "Resume Download",
       description: "Resume download would be implemented here",
