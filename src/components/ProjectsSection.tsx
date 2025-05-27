@@ -40,7 +40,8 @@ const ProjectsSection = () => {
         "Mobile-responsive design"
       ],
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=600",
-      color: "from-green-500 to-blue-500"
+      color: "from-green-500 to-blue-500",
+      liveDemoLink: "https://teamgamezone.infy.uk/index.php"
     }
   ];
 
@@ -193,7 +194,7 @@ const ProjectsSection = () => {
           ))}
         </div>
 
-        {/* View More Projects Button */}
+        {/* View More Projects Button 
         <div className="text-center mt-10 sm:mt-12">
           <Button 
             variant="outline" 
@@ -202,7 +203,7 @@ const ProjectsSection = () => {
           >
             View More Projects
           </Button>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
